@@ -1,10 +1,10 @@
 {
-  "contractName": "HiraethContract",
+  "contractName": "HelloWorld",
   "abi": [
     {
       "constant": true,
       "inputs": [],
-      "name": "sayHiraeth",
+      "name": "sayHello",
       "outputs": [
         {
           "internalType": "string",
@@ -17,17 +17,17 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"sayHiraeth\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol\":\"HiraethContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol\":{\"keccak256\":\"0x1e84b33b071459ef2c158413c7c1cc3e3e29ba873cb22822b77e9e897bfcf7d0\",\"urls\":[\"bzz-raw://3ca4e5c9192875c554178ba5fde1e1aa2127cb5d7e5d0a820ab82db68b62ef2a\",\"dweb:/ipfs/QmP9kU9KPqsb5G6m3HAhGDSQKptruFmGtpB4d1MboxGUjC\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610122806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639e7e612c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060600160405280602281526020016100cc6022913990509056fe4869726165746820436f646520496d70726f7665732074686520576f726c642e2e2ea265627a7a72315820ddcabbde13d5ad73394003b03b3cd5dc227e5216de15b1ef9a8497e2cdb0ab6064736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80639e7e612c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060600160405280602281526020016100cc6022913990509056fe4869726165746820436f646520496d70726f7665732074686520576f726c642e2e2ea265627a7a72315820ddcabbde13d5ad73394003b03b3cd5dc227e5216de15b1ef9a8497e2cdb0ab6064736f6c63430005100032",
-  "sourceMap": "34:143:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:143:0;;;;;;;",
-  "deployedSourceMap": "34:143:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:143:0;;;;;;;;;;;;;;;;;;;63:112;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;63:112:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;106:13;127:43;;;;;;;;;;;;;;;;;;;63:112;:::o",
-  "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract HiraethContract {\n  function sayHiraeth() public pure returns (string memory) {\n    return 'Hiraeth Code Improves the World...';\n  }\n}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"sayHello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol\":\"HelloWorld\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol\":{\"keccak256\":\"0x919b4944b7f22297b0bab5e2d7ae2919788ed78b9542a47447170be103d9c1b9\",\"urls\":[\"bzz-raw://00cb9b9268c88b2fbedf5981ba3b7a9901a9e05744751038fe790bea9969d532\",\"dweb:/ipfs/Qmbtzvx5HHWZ64haPgmaj7TNwNLMwibE4wSZvY1tA3xw6c\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ef5fb05b14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600c81526020017f48656c6c6f20576f726c6421000000000000000000000000000000000000000081525090509056fea265627a7a72315820bfdd36deee88b14786457ce64c09e285fb57f6e06bf015f05c5e89a0002ac31a64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ef5fb05b14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600c81526020017f48656c6c6f20576f726c6421000000000000000000000000000000000000000081525090509056fea265627a7a72315820bfdd36deee88b14786457ce64c09e285fb57f6e06bf015f05c5e89a0002ac31a64736f6c63430005100032",
+  "sourceMap": "34:122:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:122:0;;;;;;;",
+  "deployedSourceMap": "34:122:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:122:0;;;;;;;;;;;;;;;;;;;60:94;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;60:94:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;101:13;126:21;;;;;;;;;;;;;;;;;;;60:94;:::o",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract HelloWorld {\n    function sayHello() public pure returns (string memory) {\n        return 'Hello World!';\n    }\n}",
   "sourcePath": "/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol",
   "ast": {
     "absolutePath": "/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol",
     "exportedSymbols": {
-      "HiraethContract": [
+      "HelloWorld": [
         10
       ]
     },
@@ -58,19 +58,19 @@
         "linearizedBaseContracts": [
           10
         ],
-        "name": "HiraethContract",
+        "name": "HelloWorld",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
               "id": 8,
               "nodeType": "Block",
-              "src": "121:54:0",
+              "src": "116:38:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "hexValue": "4869726165746820436f646520496d70726f7665732074686520576f726c642e2e2e",
+                    "hexValue": "48656c6c6f20576f726c6421",
                     "id": 6,
                     "isConstant": false,
                     "isLValue": false,
@@ -78,18 +78,18 @@
                     "kind": "string",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "134:36:0",
+                    "src": "133:14:0",
                     "subdenomination": null,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_stringliteral_166df8c4b6e958728439e87d1f33dde22895b50cdf2c30ac91d434a53cf1700b",
-                      "typeString": "literal_string \"Hiraeth Code Improves the World...\""
+                      "typeIdentifier": "t_stringliteral_3ea2f1d0abf3fc66cf29eebb70cbd4e7fe762ef8a09bcc06c8edf641230afec0",
+                      "typeString": "literal_string \"Hello World!\""
                     },
-                    "value": "Hiraeth Code Improves the World..."
+                    "value": "Hello World!"
                   },
                   "functionReturnParameters": 5,
                   "id": 7,
                   "nodeType": "Return",
-                  "src": "127:43:0"
+                  "src": "126:21:0"
                 }
               ]
             },
@@ -98,13 +98,13 @@
             "implemented": true,
             "kind": "function",
             "modifiers": [],
-            "name": "sayHiraeth",
+            "name": "sayHello",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 2,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "82:2:0"
+              "src": "77:2:0"
             },
             "returnParameters": {
               "id": 5,
@@ -116,7 +116,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 9,
-                  "src": "106:13:0",
+                  "src": "101:13:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -127,7 +127,7 @@
                     "id": 3,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "106:6:0",
+                    "src": "101:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -137,26 +137,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "105:15:0"
+              "src": "100:15:0"
             },
             "scope": 10,
-            "src": "63:112:0",
+            "src": "60:94:0",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 11,
-        "src": "34:143:0"
+        "src": "34:122:0"
       }
     ],
-    "src": "0:177:0"
+    "src": "0:156:0"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/Users/sokos6/Development/cryptofrequency/smarthiraeth/contracts/HiraethContract.sol",
       "exportedSymbols": {
-        "HiraethContract": [
+        "HelloWorld": [
           10
         ]
       }
@@ -192,7 +192,7 @@
           "linearizedBaseContracts": [
             10
           ],
-          "name": "HiraethContract",
+          "name": "HelloWorld",
           "scope": 11
         },
         "children": [
@@ -205,7 +205,7 @@
               "modifiers": [
                 null
               ],
-              "name": "sayHiraeth",
+              "name": "sayHello",
               "scope": 10,
               "stateMutability": "pure",
               "superFunction": null,
@@ -221,7 +221,7 @@
                 "children": [],
                 "id": 2,
                 "name": "ParameterList",
-                "src": "82:2:0"
+                "src": "77:2:0"
               },
               {
                 "children": [
@@ -244,17 +244,17 @@
                         },
                         "id": 3,
                         "name": "ElementaryTypeName",
-                        "src": "106:6:0"
+                        "src": "101:6:0"
                       }
                     ],
                     "id": 4,
                     "name": "VariableDeclaration",
-                    "src": "106:13:0"
+                    "src": "101:13:0"
                   }
                 ],
                 "id": 5,
                 "name": "ParameterList",
-                "src": "105:15:0"
+                "src": "100:15:0"
               },
               {
                 "children": [
@@ -266,52 +266,60 @@
                       {
                         "attributes": {
                           "argumentTypes": null,
-                          "hexvalue": "4869726165746820436f646520496d70726f7665732074686520576f726c642e2e2e",
+                          "hexvalue": "48656c6c6f20576f726c6421",
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "subdenomination": null,
                           "token": "string",
-                          "type": "literal_string \"Hiraeth Code Improves the World...\"",
-                          "value": "Hiraeth Code Improves the World..."
+                          "type": "literal_string \"Hello World!\"",
+                          "value": "Hello World!"
                         },
                         "id": 6,
                         "name": "Literal",
-                        "src": "134:36:0"
+                        "src": "133:14:0"
                       }
                     ],
                     "id": 7,
                     "name": "Return",
-                    "src": "127:43:0"
+                    "src": "126:21:0"
                   }
                 ],
                 "id": 8,
                 "name": "Block",
-                "src": "121:54:0"
+                "src": "116:38:0"
               }
             ],
             "id": 9,
             "name": "FunctionDefinition",
-            "src": "63:112:0"
+            "src": "60:94:0"
           }
         ],
         "id": 10,
         "name": "ContractDefinition",
-        "src": "34:143:0"
+        "src": "34:122:0"
       }
     ],
     "id": 11,
     "name": "SourceUnit",
-    "src": "0:177:0"
+    "src": "0:156:0"
   },
   "compiler": {
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x07afAa3D12B67b31aF677e1834035D9e642AF0e1",
+      "transactionHash": "0xd376632925e9094e515e8a4de84e7f60c069103604080df44dfc14017b9ab679"
+    }
+  },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-23T00:49:33.050Z",
+  "updatedAt": "2021-01-23T01:47:41.541Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
