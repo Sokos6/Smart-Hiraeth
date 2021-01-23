@@ -1,5 +1,5 @@
-let HiraethDeploy = artifacts.require('HiraethContract');
+var Hiraeth = artifacts.require("Hiraeth");
 
 module.exports = function(deployer) {
-  deployer.deploy(HiraethDeploy);
-}
+    deployer.deploy(Hiraeth);
+};

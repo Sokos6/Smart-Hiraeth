@@ -9,7 +9,7 @@ web3 = Web3(HTTPProvider(blockchain_address))
 web3.eth.defaultAccount = web3.eth.accounts[0]
 
 # Path to the compiled contract JSON file
-compiled_contract_path = 'build/contracts/HelloWorld.json'
+compiled_contract_path = 'build/contracts/Hiraeth.json'
 # Deployed contract address (see `migrate` command output: `contract address`)
 deployed_contract_address = '0x07afAa3D12B67b31aF677e1834035D9e642AF0e1'
 
@@ -21,6 +21,7 @@ with open(compiled_contract_path) as file:
 contract = web3.eth.contract(address=deployed_contract_address, abi=contract_abi)
 
 # Call contract function (this is not persisted to the blockchain)
-message = contract.functions.sayHello().call()
+message = contract.functions.sayHiraeth().call()
 
 print(message)
+
