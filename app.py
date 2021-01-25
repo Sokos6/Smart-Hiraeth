@@ -2,7 +2,7 @@ import json
 from web3 import Web3, HTTPProvider
 
 # truffle development blockchain address
-blockchain_address = 'http://127.0.0.1:9545'
+blockchain_address = 'http://127.0.0.1:8545'
 # Client instance to interact with the blockchain
 web3 = Web3(HTTPProvider(blockchain_address))
 # Set the default account (so we don't need to set the "from" for every transaction call)
@@ -25,3 +25,9 @@ message = contract.functions.sayHiraeth().call()
 
 print(message)
 
+# executes setPayload function
+tx_hash = contract.functions.setPayload('abc').transact()
+# waits for the specified  transaction (tx_hash) to be confirmed
+# (included in a mined block)
+tx_receipt = web3.eth.waitForTransactionReceipt(tx_hash)
+print('tx_hash: {}'.format(tx_hash.hex()))
